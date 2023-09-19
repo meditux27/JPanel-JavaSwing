@@ -300,7 +300,7 @@ Donde componente es el componente gráfico al que deseas solicitar que se vuelva
 
 * Ejemplo
 
-[repaint](https://github.com/meditux27/Jpanel-Java/blob/main/RepaintExample.java)
+[repaint](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/RepaintExample.java)
 
 ____ 
 
