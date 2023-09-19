@@ -258,7 +258,7 @@ Es importante mencionar que setPreferredSize() establece una sugerencia para el 
 
 * Ejemplo
 
-[setPreferredSize](https://github.com/meditux27/Jpanel-Java/blob/main/PreferredSizeExample.java)
+[setPreferredSize](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/GetPreferredSizeExample.java)
 
 ____
 
@@ -278,7 +278,7 @@ El método `setVisible(true)` es esencial para mostrar cualquier ventana o compo
 
 * Ejemplo
 
-[setVisible](https://github.com/meditux27/Jpanel-Java/blob/main/SetVisibleExample.java)
+[setVisible](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/SetVisibleExample.java)
 
 ____
 
