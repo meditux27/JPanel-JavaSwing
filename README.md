@@ -1,8 +1,8 @@
-# Jpanel-Java
+# JPanel - JavaSwing
 
-### ![Jpanel](https://linuxhint.com/wp-content/uploads/2023/08/What-is-Java-Swing-JPanel-with-Examples.jpg)
+### <img src="https://linuxhint.com/wp-content/uploads/2023/08/What-is-Java-Swing-JPanel-with-Examples.jpg" title="" alt="Jpanel" width="401">
 
-##### JPanel puede aceptar metodos que cambiaran ciertas caracteristicas del comportamiento del panel que se crea, entre los mas importantes son :
+##### JPanel es un contenedor ligero que se utiliza para organizar y agrupar componentes gráficos, como botones, etiquetas, cuadros de texto, etc., en una ventana o marco de aplicación. Puedes pensar en un JPanel como un lienzo en el que puedes colocar otros componentes para organizarlos y controlar su disposición en la interfaz de usuario.
 
 ____
 
@@ -10,7 +10,7 @@ ____
 
 - Descripción
 
-Agrega un componente al panel, ya sea un botón o label , etc..
+Agrega un componente al panel, ya sea un botón, un label , etc..
 
 - Sintaxis
 
@@ -31,7 +31,7 @@ Para el uso del metodo add() es necesario que los commponentes ya esten creados 
 
 - Ejemplo
 
-[ add.(component)]( https://github.com/meditux27/Jpanel-Java/blob/main/addComponentExample.java )
+[ add](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/addComponentExample.java)
 
 ---
 
@@ -332,8 +332,6 @@ ____
 
 Devuelve el componente en la posición especificada.  
 
-
-
 * Sintaxis  
 
 `Component componente = contenedor.getComponent(int indice);`
@@ -366,13 +364,9 @@ se utiliza para obtener un arreglo de todos los componentes contenidos en un con
 
 Donde "contenedor"  es el contenedor del que deseas obtener los componentes y "componentes"  es un arreglo de objetos Component que tiene todos los componentes dentro del contenedor.  
 
-
-
 * Ejemplo
 
 [getComponents](https://github.com/meditux27/Jpanel-Java/blob/main/GetComponentsExample.java)
-
-
 
 ____
 
@@ -385,7 +379,6 @@ Devuelve el color de fondo del panel.
 * Sintaxis  
 
 `Color colorFondo = comp.getBackground();  `
-
 
 * Nota
 
@@ -411,8 +404,6 @@ Devuelve el administrador de diseño del panel.
 * Sintaxis  
 
 `LayoutManager administrador = conten.getLayout();  `
-
-
 
 * Nota
 
@@ -442,8 +433,6 @@ Se utiliza en Java Swing para obtener la dimensión preferida de un componente g
 
 Donde `componente` es el componente del cual deseas obtener la dimensión preferida, y `dimensionPreferida` es una instancia de la clase java.awt.Dimension que representa el ancho y el alto preferidos del componente.  
 
-
-
 Al momento de imprimir da una medida preferida del manejador de componentes mas no es la medida exacta del tamaño del componente  
 
 * Ejemplo
@@ -467,8 +456,6 @@ Devuelve el tamaño actual del panel.
 Se utiliza en Java Swing para obtener la dimensión actual de un componente gráfico, como un JFrame, un JPanel, un JButton, etc. La dimensión se refiere al ancho y al alto del componente.
 
 Donde `componente` es el componente del cual deseas obtener la dimensión actual y `dimension` es una instancia de la clase java.awt.Dimension que representa el ancho y el alto del componente.  
-
-
 
 * Ejemplo
 

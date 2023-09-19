@@ -1,11 +1,12 @@
 package Example;
+//Copiar codigo desde aqui
 import javax.swing.JButton;
 //Copiar codigo desde aqui
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-//Agregar el nombre de la clase o realizar una nueva clase con el nombre SetBeckground
-public class addComponentExample {
+
+public class addComponentExample {//Modificar el nombre de la clase a su preferencia o realizar una nueva clase con el nombre presente
 	public static void main(String[] args) {
 		//Creación de Jframe
 		JFrame frame=new JFrame();
@@ -13,8 +14,7 @@ public class addComponentExample {
 		frame.setSize(400,400);
 		//Determina la posición inicial
 		frame.setLocationRelativeTo(null);
-		//Establece la visibilidad
-		frame.setVisible(true);
+		
 		//Determina el comportamiento de cerrar la ventana 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -39,6 +39,9 @@ public class addComponentExample {
         panel.add(button4);
         panel.add(button5);
         panel.add(button6);
+        
+        //Establece la visibilidad
+      	frame.setVisible(true);
 		
 	}
 }
