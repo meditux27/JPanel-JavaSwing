@@ -149,7 +149,7 @@ Al utilizar el metodo remove all, elimina todos los componentes, mas no actualiz
 
 * Ejemplo
 
-[.removeAll](https://github.com/meditux27/Jpanel-Java/blob/main/JPanelRemoveAllExample.java)
+[.removeAll](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/JPanelRemoveAllExample.java)
 
 ---
 

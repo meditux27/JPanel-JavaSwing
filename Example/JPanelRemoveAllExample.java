@@ -12,8 +12,7 @@ public class JPanelRemoveAllExample {//Agregar el nombre de la clase o realizar 
         JFrame frame = new JFrame("Ejemplo de JPanel.removeAll()");
         //Determina el comportamiento para cerrar el programa 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //Establece la visibilidad
-        frame.setVisible(true);
+        
         //Determina el tamaño de JFrame
         frame.setSize(400,400);
         //Determina la posición inicial
@@ -52,7 +51,8 @@ public class JPanelRemoveAllExample {//Agregar el nombre de la clase o realizar 
 
         // Agregar el panel al JFrame
         frame.add(panel);
-
+      //Establece la visibilidad
+        frame.setVisible(true);
         
     }
 }
