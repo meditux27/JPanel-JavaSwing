@@ -13,8 +13,7 @@ public class BorderLayoutExample {//Agregar el nombre de la clase o realizar una
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //Determina el tamaño de JFrame
         frame.setSize(300, 200);
-        //Establece la visibilidad
-        frame.setVisible(true);
+        
         //Determina la posición inicial
         frame.setLocationRelativeTo(null);
 
@@ -42,7 +41,8 @@ public class BorderLayoutExample {//Agregar el nombre de la clase o realizar una
         frame.add(buttonWest, BorderLayout.WEST);
         frame.add(panel2, BorderLayout.CENTER);
 
-        
+        //Establece la visibilidad
+        frame.setVisible(true);
         
       
     }

@@ -11,8 +11,7 @@ public static void main(String[] args) {
     frame.setSize(300, 200);
     //Determina el comportamiento para cerrar el programa 
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    //Establece la visibilidad
-    frame.setVisible(true);
+    
     //Determina la posición inicial
     frame.setLocationRelativeTo(null);
     // Crear un JPanel con GridLayout
@@ -30,6 +29,7 @@ public static void main(String[] args) {
     // Agregar el panel al JFrame
     frame.add(panel);
 
-   
+  //Establece la visibilidad
+    frame.setVisible(true);
 }
 }

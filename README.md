@@ -18,7 +18,7 @@ panel.add(button);
 
 - Nota
 
-Para el uso del metodo add() es necesario que los commponentes ya esten creados o instanciados, posteriormente se indica la adición mediante el comando add()
+Para el uso del metodo add() es necesario que los commponentes ya esten creados o instanciados, posteriormente se indica la adición mediante el comando `add();`
 
 <sub> Crear un JPanel</sub>  
 `JPanel panel = new JPanel();`
@@ -91,9 +91,9 @@ Se puede utilizar de 2 maneras
 
 [FlowLayout](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelLayoutManager/FlowLayoutExample.java)
 
-[BorderLayout](https://github.com/meditux27/Jpanel-Java/blob/main/Layout_Manager/BorderLayoutExample.java)
+[BorderLayout](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelLayoutManager/BorderLayoutExample.java)
 
-[GridLayout](https://github.com/meditux27/Jpanel-Java/blob/main/Layout_Manager/GridLayoutExample.java)
+[GridLayout](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelLayoutManager/GridLayoutExample.java)
 
 ---
 
@@ -121,7 +121,7 @@ panel.remove(button);
 
 * Ejemplo
 
-[.remove ]( https://github.com/meditux27/Jpanel-Java/blob/main/JPanelRemoveExample.java)
+[.remove ]( https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/JPanelRemoveExample.java)
 
 ---
 

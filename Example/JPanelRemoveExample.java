@@ -14,8 +14,7 @@ public class JPanelRemoveExample {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //Determina el tamaño de JFrame
         frame.setSize(300, 200);
-        //Establece la visibilidad
-        frame.setVisible(true);
+        
         //Determina la posición inicial
         frame.setLocationRelativeTo(null);
         // Crear un JPanel
@@ -50,7 +49,8 @@ public class JPanelRemoveExample {
 
         // Agregar el panel al JFrame
         frame.add(panel);
-
+      //Establece la visibilidad
+        frame.setVisible(true);
         
     }
 }
