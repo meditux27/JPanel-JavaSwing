@@ -11,8 +11,7 @@ public static void main(String[] args) {
 	JFrame frame = new JFrame();
 	//Se especifica el tamaño de la ventana default
 	frame.setSize(400, 400);
-	//Se indica la visibilidad 
-	frame.setVisible(true);
+	
 	//Se indica la posición central por default
 	frame.setLocationRelativeTo(null);
 	//Se propociona el cierre de la ventana 
@@ -24,7 +23,8 @@ public static void main(String[] args) {
 	//Se adhieren elementos a ventana principal
 	frame.add(panel);
 	panel.setBorder(borde);
-	
+	//Se indica la visibilidad 
+		frame.setVisible(true);
 }
 	
 }

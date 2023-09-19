@@ -17,8 +17,7 @@ public class emptyborderExample {
         frame.setSize(300, 200);
         //Se configura el cierre del programa
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //Se indica la visibilidad
-        frame.setVisible(true);
+        
         //Se indica la posición inicial al ejecutar 
         frame.setLocationRelativeTo(null);
 		
@@ -41,7 +40,8 @@ public class emptyborderExample {
         panel.add(boton2, BorderLayout.WEST);
         // Agregar el panel al JFrame
         frame.add(panel);
-
+      //Se indica la visibilidad
+        frame.setVisible(true);
         
 	}
 }

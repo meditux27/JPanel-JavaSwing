@@ -224,17 +224,17 @@ _Donde top, left, bottom y right son valores enteros que representan el tamaño 
 
 * Ejemplo
 
-[LineBorder](https://github.com/meditux27/Jpanel-Java/blob/main/Border_Example/lineborderExample.java)
+[LineBorder](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelBorder/lineborderExample.java)
 
-[LineBorder 2da sintaxis](https://github.com/meditux27/Jpanel-Java/blob/main/Border_Example/lineborderExample2.java)
+[LineBorder 2da sintaxis](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelBorder/lineborderExample2.java)
 
-[TitledBorder](https://github.com/meditux27/Jpanel-Java/blob/main/Border_Example/titleborderExample.java)
+[TitledBorder](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelBorder/titleborderExample.java)
 
-[TitledBorder 2da sintaxis](https://github.com/meditux27/Jpanel-Java/blob/main/Border_Example/titleborderExample2.java)
+[TitledBorder 2da sintaxis](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelBorder/titleborderExample2.java)
 
-[EmptyBorder](https://github.com/meditux27/Jpanel-Java/blob/main/Border_Example/emptyborderExample.java)
+[EmptyBorder](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelBorder/emptyborderExample.java)
 
-[EmptyBorder 2da sintaxis](https://github.com/meditux27/Jpanel-Java/blob/main/Border_Example/emptyborderExample2.java)
+[EmptyBorder 2da sintaxis](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelBorder/emptyborderExample2.java)
 
 ---
 
