@@ -51,7 +51,7 @@ Puedes reemplazar Color.LIGHT_GRAY con cualquier otro color de la clase Color, c
 
 * Ejemplo
 
-[setBackground ](https://github.com/meditux27/Jpanel-Java/blob/main/SetBeckground.java)
+[setBackground ](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/SetBackground.java)
 
 ---
 

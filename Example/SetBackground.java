@@ -4,7 +4,7 @@ import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class SetBeckground { //Agregar el nombre de la clase o realizar una nueva clase con el nombre SetBeckground
+public class SetBackground { //Modificar el nombre de la clase a su preferencia o realizar una nueva clase con el nombre presente
     public static void main(String[] args) {
         // Crear un nuevo JFrame
         JFrame frame = new JFrame("Ejemplo de setBackground");
@@ -12,8 +12,7 @@ public class SetBeckground { //Agregar el nombre de la clase o realizar una nuev
         frame.setSize(400, 300);
         // Configura el cierre por medio del boton de la ventana 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //Configura que se haga visible la ventana
-        frame.setVisible(true);
+        
         //Configura que la posición de inicio sea en el centro de la pantalla 
         frame.setLocationRelativeTo(null);
         // Crear un JPanel
@@ -25,6 +24,7 @@ public class SetBeckground { //Agregar el nombre de la clase o realizar una nuev
         // Agregar el JPanel al JFrame
         frame.add(panel);
 
-       
+      //Configura que se haga visible la ventana
+        frame.setVisible(true);
     }
 }
