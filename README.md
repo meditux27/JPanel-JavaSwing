@@ -322,7 +322,7 @@ Donde componente es el componente gráfico al que deseas aplicar la recalculaci�
 
 * Ejemplo
 
-[revalidate](https://github.com/meditux27/Jpanel-Java/blob/main/RevalidateExample.java)
+[revalidate](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/RevalidateExample.java)
 
 ____
 
@@ -344,7 +344,7 @@ Donde "contenedor"  es el contenedor en el que deseas buscar el componente e "in
 
 * Ejemplo
 
-[getComponent](https://github.com/meditux27/Jpanel-Java/blob/main/GetComponentExample.java)
+[getComponent](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/GetComponentExample.java)
 
 ____
 
@@ -366,7 +366,7 @@ Donde "contenedor"  es el contenedor del que deseas obtener los componentes y "c
 
 * Ejemplo
 
-[getComponents](https://github.com/meditux27/Jpanel-Java/blob/main/GetComponentsExample.java)
+[getComponents](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/GetComponentsExample.java)
 
 ____
 
@@ -391,7 +391,7 @@ Color de fondo: javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]
 
 * Ejemplo
 
-[getBackground](https://github.com/meditux27/Jpanel-Java/blob/main/GetBackgroundExample.java)
+[getBackground](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/GetBackgroundExample.java)
 
 ____
 
@@ -413,7 +413,7 @@ El administrador de diseño es responsable de organizar y posicionar los compone
 
 * Ejemplo
 
-[getLayout](https://github.com/meditux27/Jpanel-Java/blob/main/GetLayoutExample.java)
+[getLayout](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/GetLayoutExample.java)
 
 ____
 
@@ -437,7 +437,7 @@ Al momento de imprimir da una medida preferida del manejador de componentes mas 
 
 * Ejemplo
 
-[getPreferredSize](https://github.com/meditux27/Jpanel-Java/blob/main/GetPreferredSizeExample.java)
+[getPreferredSize](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/GetPreferredSizeExample.java)
 
 ____
 
@@ -459,4 +459,4 @@ Donde `componente` es el componente del cual deseas obtener la dimensión actual
 
 * Ejemplo
 
-[getSize](https://github.com/meditux27/Jpanel-Java/blob/main/GetSizeExample.java)
+[getSize](https://github.com/meditux27/JPanel-JavaSwing/blob/main/Example/GetSizeExample.java)
