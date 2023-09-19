@@ -14,8 +14,7 @@ public class FlowLayoutExample {//Agregar el nombre de la clase o realizar una n
         frame.setSize(300, 200);
         //Determina la posición inicial
         frame.setLocationRelativeTo(null);
-        //Establece la visibilidad
-        frame.setVisible(true);
+        
         
         // Crear un JPanel con FlowLayout
         frame.setLayout(new FlowLayout());
@@ -30,6 +29,7 @@ public class FlowLayoutExample {//Agregar el nombre de la clase o realizar una n
         frame.add(button2);
         frame.add(button3);
 
-       
+      //Establece la visibilidad
+        frame.setVisible(true);
     }
 }

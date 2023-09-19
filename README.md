@@ -89,7 +89,7 @@ Se puede utilizar de 2 maneras
 
 * Ejemplos
 
-[FlowLayout](https://github.com/meditux27/Jpanel-Java/blob/main/Layout_Manager/FlowLayoutExample.java)
+[FlowLayout](https://github.com/meditux27/JPanel-JavaSwing/blob/main/JPanelLayoutManager/FlowLayoutExample.java)
 
 [BorderLayout](https://github.com/meditux27/Jpanel-Java/blob/main/Layout_Manager/BorderLayoutExample.java)
 
