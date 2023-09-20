@@ -6,7 +6,7 @@
 
 ____
 
-[Estructura basica]()
+[Estructura basica](https://github.com/meditux27/JPanel-JavaSwing/blob/main/estructuraBasica/EjemploJPanel.java)
 
 Algunas características clave de JPanel son :
 
