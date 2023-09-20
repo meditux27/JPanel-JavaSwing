@@ -2,7 +2,7 @@
 
 ### <img src="https://linuxhint.com/wp-content/uploads/2023/08/What-is-Java-Swing-JPanel-with-Examples.jpg" title="" alt="Jpanel" width="401">
 
-######JPanel es un contenedor ligero que se utiliza para organizar y agrupar componentes gráficos, como botones, etiquetas, cuadros de texto, etc., en una ventana o marco de aplicación. Puedes pensar en un JPanel como un lienzo en el que puedes colocar otros componentes para organizarlos y controlar su disposición en la interfaz de usuario.
+###### JPanel es un contenedor ligero que se utiliza para organizar y agrupar componentes gráficos, como botones, etiquetas, cuadros de texto, etc., en una ventana o marco de aplicación. Puedes pensar en un JPanel como un lienzo en el que puedes colocar otros componentes para organizarlos y controlar su disposición en la interfaz de usuario.
 
 ____
 
