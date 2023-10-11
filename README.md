@@ -2,11 +2,11 @@
 
 ### <img src="https://linuxhint.com/wp-content/uploads/2023/08/What-is-Java-Swing-JPanel-with-Examples.jpg" title="" alt="Jpanel" width="401">
 
-##### JPanel es un contenedor ligero que se utiliza para organizar y agrupar componentes gráficos, como botones, etiquetas, cuadros de texto, etc., en una ventana o marco de aplicación. Puedes pensar en un JPanel como un lienzo en el que puedes colocar otros componentes para organizarlos y controlar su disposición en la interfaz de usuario.
+#### JPanel es un contenedor ligero que se utiliza para organizar y agrupar componentes gráficos, como botones, etiquetas, cuadros de texto, etc., en una ventana o marco de aplicación. Puedes pensar en un JPanel como un lienzo en el que puedes colocar otros componentes para organizarlos y controlar su disposición en la interfaz de usuario.
 
 ____
 
-[Estructura basica](https://github.com/meditux27/JPanel-JavaSwing/blob/main/estructuraBasica/EjemploJPanel.java)
+:coffee:[Estructura basica](https://github.com/meditux27/JPanel-JavaSwing/blob/main/estructuraBasica/EjemploJPanel.java)
 
 Algunas características clave de JPanel son :
 
@@ -19,8 +19,6 @@ Algunas características clave de JPanel son :
 4. **Eventos y Componentes**: Puedes agregar controladores de eventos a los componentes dentro de un `JPanel` para manejar interacciones del usuario, como clics de botón o entrada de texto. Además, puedes agregar una variedad de componentes diferentes al `JPanel` para crear interfaces de usuario complejas.
 
 5. **Uso en Jerarquía de Componentes**: Los `JPanel` se utilizan comúnmente en combinación con otros contenedores como `JFrame`, `JDialog` y `JScrollPane` para crear la estructura de la interfaz de usuario en aplicaciones Swing.
-
-
 
 Algunos de los métodos más comunes de la clase `JPanel` en Java Swing, que se utilizan con frecuencia para configurar y trabajar son los siguientes:
 
