@@ -68,8 +68,6 @@ Finalmente, asegúrate de hacer visible el `JFrame` para que puedas ver el `JPan
 frame.setVisible(true);
 ```
 
-
-
 :coffee:[Estructura basica](https://github.com/meditux27/JPanel-JavaSwing/blob/main/estructuraBasica/EjemploJPanel.java)
 
 ____
@@ -341,7 +339,7 @@ Border emptyBorder = BorderFactory.createEmptyBorder(10, 10, 10, 10);` `panel.se
 
 ---
 
-> :beginner:setPreferredSize(Dimension preferredSize) 
+> :beginner:**setPreferredSize()** 
 
 * Descripción
 
@@ -349,7 +347,9 @@ Establece el tamaño preferido del panel.
 
 * Sintaxis  
 
-`componentes.setPreferredSize(new Dimension(ancho, alto));`
+```java
+componentes.setPreferredSize(new Dimension(ancho, alto));
+```
 
 * Nota
 
@@ -365,7 +365,7 @@ Es importante mencionar que setPreferredSize() establece una sugerencia para el 
 
 ____
 
-> :beginner:setVisible(boolean visible)
+> :beginner:**setVisible()**
 
 * Descripción
 
@@ -373,7 +373,9 @@ Establece la visibilidad del panel.
 
 * Sintaxis  
 
-`componente.setVisible(boolean visible);  `
+```java
+componente.setVisible(boolean visible);
+```
 
 * Nota
 
@@ -385,7 +387,7 @@ El método `setVisible(true)` es esencial para mostrar cualquier ventana o compo
 
 ____
 
-> :beginner:repaint() 
+> :beginner:**repaint()** 
 
 * Descripción
 
@@ -393,7 +395,9 @@ Vuelve a pintar el panel y sus componentes.
 
 * Sintaxis  
 
-`componente.repaint();  `
+```java
+componente.repaint();
+```
 
 * Nota
 
@@ -407,7 +411,7 @@ Donde componente es el componente gráfico al que deseas solicitar que se vuelva
 
 ____ 
 
-> :beginner:revalidate()
+> :beginner:**revalidate()**
 
 * Descripción
 
@@ -415,7 +419,9 @@ Indica al panel que vuelva a validar su diseño y sus componentes.
 
 * Sintaxis  
 
-`componente.revalidate();`
+```java
+componente.revalidate();
+```
 
 * Nota
 
@@ -429,7 +435,7 @@ Donde componente es el componente gráfico al que deseas aplicar la recalculaci�
 
 ____
 
-> :beginner:getComponent(int index) 
+> :beginner:**getComponent()** 
 
 * Descripción
 
@@ -437,11 +443,15 @@ Devuelve el componente en la posición especificada.
 
 * Sintaxis  
 
-`Component componente = contenedor.getComponent(int indice);`
+```java
+ Component componente = panel.getComponent(1);
+```
 
 * Nota
 
 Se utiliza para obtener el componente en una posición específica dentro de un contenedor. Esto es útil cuando necesitas interactuar con un componente específico contenido en otro contenedor, con la finalidad de modificar su comportamiento
+
+`Component componente = contenedor.getComponent(int indice);`
 
 Donde "contenedor"  es el contenedor en el que deseas buscar el componente e "indice"  es la posición del componente dentro del contenedor. El índice comienza desde 0 para el primer componente, 1 para el segundo componente y así sucesivamente.  
 
@@ -473,7 +483,7 @@ Donde "contenedor"  es el contenedor del que deseas obtener los componentes y "c
 
 ____
 
-> :beginner:getBackground()
+> :beginner:**getBackground()**
 
 * Descripción
 
@@ -481,7 +491,9 @@ Devuelve el color de fondo del panel.
 
 * Sintaxis  
 
-`Color colorFondo = comp.getBackground();  `
+```java
+Color colorFondo = comp.getBackground();
+```
 
 * Nota
 
@@ -498,7 +510,7 @@ Color de fondo: javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]
 
 ____
 
-> :beginner:getLayout()
+> :beginner:**getLayout()**
 
 * Descripción
 
@@ -506,7 +518,9 @@ Devuelve el administrador de diseño del panel.
 
 * Sintaxis  
 
-`LayoutManager administrador = conten.getLayout();  `
+```java
+LayoutManager administrador = conten.getLayout();
+```
 
 * Nota
 
@@ -520,7 +534,7 @@ El administrador de diseño es responsable de organizar y posicionar los compone
 
 ____
 
-> :beginner:getPreferredSize()
+> :beginner:**getPreferredSize()**
 
 * Descripción
 
@@ -528,7 +542,9 @@ Devuelve el tamaño del panel seleccionado
 
 * Sintaxis  
 
-`Dimension dimensionPreferida = componente.getPreferredSize();  `
+```java
+Dimension dimensionPreferida = componente.getPreferredSize();
+```
 
 * Nota
 
@@ -544,7 +560,7 @@ Al momento de imprimir da una medida preferida del manejador de componentes mas 
 
 ____
 
-> :beginner:getSize() 
+> :beginner:**getSize()**
 
 * Descripción
 
@@ -552,7 +568,9 @@ Devuelve el tamaño actual del panel.
 
 * Sintaxis  
 
-`Dimension dimension = componente.getSize();  `
+```java
+Dimension dimension = componente.getSize();
+```
 
 * Nota
 
