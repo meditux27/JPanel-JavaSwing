@@ -103,7 +103,7 @@ Para el uso del metodo add() es necesario que los commponentes ya esten creados 
 
 ---
 
-> :beginner:**setBackground(Color.color) **
+> :beginner:**setBackground()**
 
 - Descripción
 
@@ -461,7 +461,7 @@ Donde "contenedor"  es el contenedor en el que deseas buscar el componente e "in
 
 ____
 
-> :beginner:getComponents()
+> :beginner:**getComponents()**
 
 * Descripción
 
@@ -471,7 +471,9 @@ se utiliza para obtener un arreglo de todos los componentes contenidos en un con
 
 * Sintaxis  
 
-`Component[] componentes = contenedor.getComponents();  `
+```java
+Component[] componentes = contenedor.getComponents();
+```
 
 * Nota
 
